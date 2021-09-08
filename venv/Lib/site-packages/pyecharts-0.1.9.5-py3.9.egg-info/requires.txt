@@ -1,0 +1,4 @@
+pillow
+jinja2
+future
+jupyter-pip

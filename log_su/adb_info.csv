@@ -1,0 +1,364 @@
+User 23%, System 7%, IOW 0%, IRQ 0%
+User 9 + Nice 0 + Sys 3 + Idle 26 + IOW 0 + IRQ 0 + SIRQ 0 = 38
+
+  PID USER     PR  NI CPU% S  #THR     VSS     RSS PCY Name
+15127 u0_a300  10 -10  21% S    31 1979736K 785336K  ta com.function3d.smfunctiondemo
+16398 shell    20   0  13% R     1   9388K   1904K  fg top
+    3 root     20   0   0% S     1      0K      0K  fg ksoftirqd/0
+    5 root      0 -20   0% S     1      0K      0K  fg kworker/0:0H
+    7 root     20   0   0% S     1      0K      0K  fg rcu_preempt
+    8 root     20   0   0% S     1      0K      0K  fg rcu_sched
+    9 root     20   0   0% S     1      0K      0K  fg rcu_bh
+   10 root     RT   0   0% S     1      0K      0K  fg migration/0
+   11 root     RT   0   0% S     1      0K      0K  fg watchdog/0
+   12 root     RT   0   0% S     1      0K      0K  fg watchdog/1
+   13 root     RT   0   0% S     1      0K      0K  fg migration/1
+   14 root     20   0   0% S     1      0K      0K  fg ksoftirqd/1
+   16 root      0 -20   0% S     1      0K      0K  fg kworker/1:0H
+   17 root     RT   0   0% S     1      0K      0K  fg watchdog/2
+   18 root     RT   0   0% S     1      0K      0K  fg migration/2
+   19 root     20   0   0% S     1      0K      0K  fg ksoftirqd/2
+   21 root      0 -20   0% S     1      0K      0K  fg kworker/2:0H
+   22 root     RT   0   0% S     1      0K      0K  fg watchdog/3
+   23 root     RT   0   0% S     1      0K      0K  fg migration/3
+   24 root     20   0   0% S     1      0K      0K  fg ksoftirqd/3
+   26 root      0 -20   0% S     1      0K      0K  fg kworker/3:0H
+   27 root     RT   0   0% S     1      0K      0K  fg watchdog/4
+   28 root     RT   0   0% S     1      0K      0K  fg migration/4
+   29 root     20   0   0% S     1      0K      0K  fg ksoftirqd/4
+   31 root      0 -20   0% S     1      0K      0K  fg kworker/4:0H
+   32 root     RT   0   0% S     1      0K      0K  fg watchdog/5
+   33 root     RT   0   0% S     1      0K      0K  fg migration/5
+   34 root     20   0   0% S     1      0K      0K  fg ksoftirqd/5
+   35 root     20   0   0% S     1      0K      0K  fg kworker/5:0
+   36 root      0 -20   0% S     1      0K      0K  fg kworker/5:0H
+   37 root     RT   0   0% S     1      0K      0K  fg watchdog/6
+   38 root     RT   0   0% S     1      0K      0K  fg migration/6
+   39 root     20   0   0% S     1      0K      0K  fg ksoftirqd/6
+   41 root      0 -20   0% S     1      0K      0K  fg kworker/6:0H
+   42 root     RT   0   0% S     1      0K      0K  fg watchdog/7
+   43 root     RT   0   0% S     1      0K      0K  fg migration/7
+   44 root     20   0   0% S     1      0K      0K  fg ksoftirqd/7
+   46 root      0 -20   0% S     1      0K      0K  fg kworker/7:0H
+   47 root      0 -20   0% S     1      0K      0K  fg khelper
+   48 root     20   0   0% S     1      0K      0K  fg kdevtmpfs
+   49 root      0 -20   0% S     1      0K      0K  fg perf
+   50 root     RT   0   0% D     1      0K      0K  fg bbox_main
+   53 root     RT   0   0% S     1      0K      0K  fg mailbox-10
+   54 root     RT   0   0% S     1      0K      0K  fg mailbox-11
+   55 root     RT   0   0% S     1      0K      0K  fg mailbox-12
+   56 root     RT   0   0% S     1      0K      0K  fg mailbox-13
+   57 root     RT   0   0% S     1      0K      0K  fg mailbox-14
+   58 root     RT   0   0% S     1      0K      0K  fg mailbox-15
+   59 root     RT   0   0% S     1      0K      0K  fg mailbox-16
+   60 root     RT   0   0% S     1      0K      0K  fg mailbox-17
+   61 root     RT   0   0% S     1      0K      0K  fg mailbox-18
+   62 root     RT   0   0% S     1      0K      0K  fg mailbox-25
+   63 root     RT   0   0% S     1      0K      0K  fg mailbox-26
+   64 root     RT   0   0% S     1      0K      0K  fg mailbox-27
+   65 root     RT   0   0% S     1      0K      0K  fg mailbox-28
+   66 root     RT   0   0% S     1      0K      0K  fg mailbox-29
+   67 root     RT   0   0% S     1      0K      0K  fg isp-mailbox-2
+   68 root     RT   0   0% S     1      0K      0K  fg isp-mailbox-3
+   69 root     20   0   0% S     1      0K      0K  fg khungtaskd
+   70 root      0 -20   0% S     1      0K      0K  fg writeback
+   71 root     20   0   0% S     1      0K      0K  fg kcompactd0
+   72 root      0 -20   0% S     1      0K      0K  fg crypto
+   73 root      0 -20   0% S     1      0K      0K  fg bioset
+   74 root      0 -20   0% S     1      0K      0K  fg kblockd
+   75 root      0 -20   0% S     1      0K      0K  fg hisi_block_freq
+   76 root     20   0   0% S     1      0K      0K  fg spi0
+   78 root     20   0   0% S     1      0K      0K  fg sys_heap
+   79 root     20   0   0% S     1      0K      0K  fg carveout_grallo
+   80 root      0 -20   0% S     1      0K      0K  fg devfreq_wq
+   81 root     20   0   0% S     1      0K      0K  fg rdr_lpm3_thread
+   82 root      0 -20   0% S     1      0K      0K  fg RDR ISP
+   83 root      0 -20   0% S     1      0K      0K  fg dsm_wq
+   84 root      0 -20   0% S     1      0K      0K  fg cfg80211
+   85 root      0 -20   0% S     1      0K      0K  fg slimbus_lost_sy
+   88 root     20   0   0% S     1      0K      0K  fg smcthread/0
+   89 root     20   0   0% S     1      0K      0K  fg siqthread/0
+   90 root     20   0   0% S     1      0K      0K  fg tcwork
+   91 root     20   0   0% S     1      0K      0K  fg agent_rpmb
+   92 root     20   0   0% D     1      0K      0K  fg rdr_sh_thread
+   93 root     20   0   0% D     1      0K      0K  fg rdr_exce_thread
+   94 root      0 -20   0% S     1      0K      0K  fg iom3_rec_wq
+   95 root      0 -20   0% S     1      0K      0K  fg mcu_event_notif
+   96 root     RT   0   0% S     1      0K      0K  fg irq/309-e82b900
+   97 root     20   0   0% S     1      0K      0K  fg kworker/7:1
+  122 root     20   0   0% S     1      0K      0K  fg kswapd0
+  123 root     20   0   0% S     1      0K      0K  fg fsnotify_mark
+  124 root      0 -20   0% S     1      0K      0K  fg cifsiod
+  148 root      0 -20   0% S     1      0K      0K  fg kthrotld
+  149 root      0 -20   0% S     1      0K      0K  fg fb0_dss_debug
+  150 root      0 -20   0% S     1      0K      0K  fg fb0_ldi_underfl
+  151 root      0 -20   0% S     1      0K      0K  fg dss_underflow_d
+  152 root      0 -20   0% S     1      0K      0K  fg k3_dss_sbl_work
+  153 root      0 -20   0% S     1      0K      0K  fg hisi-dss-layerb
+  154 root      0 -20   0% S     1      0K      0K  fg hisi-dss-layerb
+  158 root      0 -20   0% S     1      0K      0K  fg pmic-otmp-wq
+  159 root      0 -20   0% S     1      0K      0K  fg pmu-ocp-wq
+  160 root      0 -20   0% S     1      0K      0K  fg uether
+  161 root      0 -20   0% S     1      0K      0K  fg kpsmoused
+  162 root     20   0   0% D     1      0K      0K  fg long_powerkey
+  163 root      0 -20   0% S     1      0K      0K  fg done_queue
+  166 root      0 -20   0% S     1      0K      0K  fg wdt_wq
+  167 root      0 -20   0% S     1      0K      0K  fg kworker/0:1H
+  168 root      0 -20   0% S     1      0K      0K  fg dm_bufio_cache
+  169 root     RT   0   0% S     1      0K      0K  fg cfinteractive
+  171 root      0 -20   0% S     1      0K      0K  fg cmdq_wq_resend
+  172 root      0 -20   0% S     1      0K      0K  fg dw-mci-card/1
+  173 root      0 -20   0% S     1      0K      0K  fg dw-mci-card/2
+  174 root      0 -20   0% S     1      0K      0K  fg elousb
+  175 root     RT   0   0% S     1      0K      0K  fg rpmsg_tx_tsk
+  176 root      0 -20   0% S     1      0K      0K  fg binder
+  177 root     20   0   0% S     1      0K      0K  fg dspdumplog
+  178 root      0 -20   0% S     1      0K      0K  fg hifi_om_work_vo
+  179 root      0 -20   0% S     1      0K      0K  fg hifi_om_work_au
+  180 root     RT   0   0% D     1      0K      0K  fg mailboxNormal
+  181 root     RT   0   0% D     1      0K      0K  fg mailboxHigh
+  182 root      0 -20   0% S     1      0K      0K  fg multi_mic_reset
+  183 root      0 -20   0% S     1      0K      0K  fg send_mailbox_cn
+  184 root     20   0   0% S     1      0K      0K  fg voice proxy wri
+  185 root      0 -20   0% S     1      0K      0K  fg soundtrigger_de
+  186 root      0 -20   0% S     1      0K      0K  fg wdt_tst_wq_a
+  187 root      0 -20   0% S     1      0K      0K  fg wdt_tst_wq_b
+  191 root     20   0   0% S     1      0K      0K  fg rdr_audio_soc_t
+  192 root     20   0   0% S     1      0K      0K  fg rdr_audio_soc_w
+  193 root     20   0   0% S     1      0K      0K  fg rdr_codec_hifi_
+  194 root     20   0   0% S     1      0K      0K  fg rdr_codec_hifi_
+  195 root     20   0   0% D     1      0K      0K  fg modemddrc_emit
+  196 root     20   0   0% D     1      0K      0K  fg chr_netlink_thr
+  198 root      0 -20   0% S     1      0K      0K  fg hwlog_workqueue
+  199 root     20   0   0% S     1      0K      0K  fg hw_kstate
+  200 root      0 -20   0% S     1      0K      0K  fg hall_wq
+  201 root     RT   0   0% S     1      0K      0K  fg irq/298-fingerp
+  202 root      0 -20   0% S     1      0K      0K  fg cmdq_workqueue
+  203 root     20   0   0% S     1      0K      0K  fg mmcqd/0boot0
+  204 root     20   0   0% S     1      0K      0K  fg mmcqd/0boot1
+  205 root     20   0   0% S     1      0K      0K  fg mmcqd/0rpmb
+  208 root      0 -20   0% S     1      0K      0K  fg ipv6_addrconf
+  209 root      0 -20   0% S     1      0K      0K  fg deferwq
+  210 root      0 -20   0% S     1      0K      0K  fg hisi-rpmb-queue
+  211 root      0 -20   0% S     1      0K      0K  fg noc_err_handle_
+  212 root      0 -20   0% S     1      0K      0K  fg vbat_ovp_handle
+  214 root     20   0   0% S     1      0K      0K  fg pll_delayed_rel
+  215 root      0 -20   0% S     1      0K      0K  fg hi64xx_micbias_
+  216 root     20   0   0% S     1      0K      0K  fg mmcqd/1
+  218 root     RT   0   0% S     1      0K      0K  fg irq/292-0-0024
+  220 root     20   0   0% S     1   6416K   1268K  fg /sbin/ueventd
+  221 root      0 -20   0% S     1      0K      0K  fg f_mtp
+  244 root     20   0   0% S     1  13312K    348K  fg /sbin/oeminfo_nvm_server
+  248 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  249 root      0 -20   0% S     1      0K      0K  fg bioset
+  250 root      0 -20   0% S     1      0K      0K  fg kverityd
+  251 root      0 -20   0% S     1      0K      0K  fg bioset
+  252 root      0 -20   0% S     1      0K      0K  fg bioset
+  253 root      0 -20   0% S     1      0K      0K  fg bioset
+  255 root     20   0   0% S     1      0K      0K  fg jbd2/dm-0-8
+  256 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  259 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  260 root      0 -20   0% S     1      0K      0K  fg bioset
+  261 root      0 -20   0% S     1      0K      0K  fg kverityd
+  262 root      0 -20   0% S     1      0K      0K  fg bioset
+  263 root      0 -20   0% S     1      0K      0K  fg bioset
+  264 root      0 -20   0% S     1      0K      0K  fg bioset
+  266 root     20   0   0% S     1      0K      0K  fg jbd2/dm-1-8
+  267 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  270 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  271 root      0 -20   0% S     1      0K      0K  fg bioset
+  272 root      0 -20   0% S     1      0K      0K  fg kverityd
+  273 root      0 -20   0% S     1      0K      0K  fg bioset
+  274 root      0 -20   0% S     1      0K      0K  fg bioset
+  275 root      0 -20   0% S     1      0K      0K  fg bioset
+  276 root     20   0   0% S     1      0K      0K  fg jbd2/dm-2-8
+  277 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  280 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  281 root      0 -20   0% S     1      0K      0K  fg bioset
+  282 root      0 -20   0% S     1      0K      0K  fg kverityd
+  283 root      0 -20   0% S     1      0K      0K  fg bioset
+  284 root      0 -20   0% S     1      0K      0K  fg bioset
+  285 root      0 -20   0% S     1      0K      0K  fg bioset
+  286 root     20   0   0% S     1      0K      0K  fg jbd2/dm-3-8
+  287 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  290 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  291 root      0 -20   0% S     1      0K      0K  fg bioset
+  292 root      0 -20   0% S     1      0K      0K  fg kverityd
+  293 root      0 -20   0% S     1      0K      0K  fg bioset
+  294 root      0 -20   0% S     1      0K      0K  fg bioset
+  295 root      0 -20   0% S     1      0K      0K  fg bioset
+  296 root     20   0   0% S     1      0K      0K  fg jbd2/dm-4-8
+  297 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  301 root      0 -20   0% S     1      0K      0K  fg kworker/7:1H
+  303 root      0 -20   0% S     1      0K      0K  fg kworker/6:1H
+  304 root     20   0   0% S     1      0K      0K  fg jbd2/mmcblk0p36
+  305 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  306 root      0 -20   0% S     1      0K      0K  fg kworker/4:1H
+  309 root      0 -20   0% S     1      0K      0K  fg kworker/5:1H
+  311 root     20   0   0% S     1      0K      0K  fg jbd2/mmcblk0p19
+  312 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  317 root     20   0   0% S     1      0K      0K  fg jbd2/mmcblk0p14
+  318 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  322 root     20   0   0% S     1      0K      0K  fg jbd2/mmcblk0p15
+  323 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  327 root     20   0   0% S     1      0K      0K  fg jbd2/mmcblk0p13
+  328 root      0 -20   0% S     1      0K      0K  fg ext4-rsv-conver
+  330 logd     30  10   0% S     8  20080K   3440K  sy /system/bin/logd
+  337 root     20   0   0% S     1      0K      0K  fg kauditd
+  339 root     20   0   0% S     6  26068K   2372K  fg /sbin/teecd
+  340 root     20   0   0% S     1   5372K   1080K  sy /system/bin/debuggerd
+  341 root     20   0   0% S     1  10176K   1392K  sy /system/bin/debuggerd64
+  343 root     20   0   0% S     5  61452K   4028K  fg /system/bin/vold
+  352 root     20   0   0% S     1   9920K     16K  sy debuggerd64:signaller
+  353 root     20   0   0% S     1   5116K     24K  sy debuggerd:signaller
+  361 root     20   0   0% S     1   6400K    480K  fg /sbin/healthd
+  362 system   20   0   0% S    27 123048K  12840K  fg /system/vendor/bin/perfhub
+  365 system   20   0   0% S     7  10744K   1160K  sy /system/bin/powerlogd
+  366 system   20   0   0% S     1   9476K   1764K  sy /system/bin/servicemanager
+  367 system   12  -8   0% S    30 684612K  14172K  fg /system/bin/surfaceflinger
+  368 root     -2   0   0% S     2   9984K   2632K  sy /system/bin/lmkd
+  375 root     20   0   0% S     3  15580K   1972K  fg /vendor/bin/bastetd
+  385 root     20   0   0% S     1      0K      0K  fg file-storage
+  392 root      0 -20   0% S     1      0K      0K  fg kbase_event
+  418 root      0 -20   0% S     1      0K      0K  fg kdmflush
+  430 root      0 -20   0% S     1      0K      0K  fg bioset
+  431 root      0 -20   0% S     1      0K      0K  fg kcryptd_io
+  432 root      0 -20   0% S     1      0K      0K  fg kcryptd
+  433 root     20   0   0% S     1      0K      0K  fg dmcrypt_write
+  434 root      0 -20   0% S     1      0K      0K  fg bioset
+  451 root      0 -20   0% S     1      0K      0K  fg kbase_event
+  479 root     20   0   0% S     1      0K      0K  fg f2fs_gc-253:5
+  486 system   20   0   0% S     1   7660K   1068K  fg /sbin/hw_ueventd
+  487 system   20   0   0% S     3  14524K   1316K  fg /system/bin/vr_daemon
+  488 system   20   0   0% S     2   8836K   1136K  fg /vendor/bin/hivwserver
+  489 root     20   0   0% S     5 2241932K  80696K  fg zygote64
+  490 root     20   0   0% S     5 1667244K  57968K  fg zygote
+  492 root     20   0   0% S     1  11176K   1108K  fg /vendor/bin/hwnffserver
+  493 system    0 -20   0% S     1   9512K   1564K  fg /vendor/bin/thermal-daemon
+  494 root     20   0   0% S     8  15044K   1832K  fg /system/bin/hwpged
+  495 media    20   0   0% S    27  67312K   8424K  fg /vendor/bin/HwCamCfgSvr
+  496 audioser 20   0   0% S     4  20948K   3188K  fg media.log
+  497 camerase 20   0   0% S     4  23968K   3212K  fg /system/bin/cameraserver
+  498 drm      20   0   0% S     3  16252K   2912K  fg /system/bin/drmserver
+  499 root     20   0   0% S     1  12288K   2900K  fg /system/bin/installd
+  500 mediacod 20   0   0% S     2  17344K   2560K  fg media.codec
+  501 media    20   0   0% S     2  17924K   2544K  fg /system/bin/mediadrmserver
+  502 mediaex  20   0   0% S     2  39016K   2768K  fg media.extractor
+  503 media    20   0   0% S     8  69368K   5292K  fg /system/bin/mediaserver
+  504 keystore 20   0   0% S     1  19376K   3344K  fg /system/bin/keystore
+  505 root     20   0   0% S    19  35392K   4132K  fg /system/bin/netd
+  506 system   20   0   0% S     3  23740K   3444K  fg /system/bin/fingerprintd
+  507 root     20   0   0% S     4  15740K   1836K  fg /system/vendor/bin/defragd
+  509 root     20   0   0% S    16  41756K   6408K  sy /system/bin/imonitor
+  516 system   20   0   0% S     1  19044K   3140K  sy /system/bin/gatekeeperd
+  519 root      0 -20   0% S     1      0K      0K  fg plat_exception_
+  537 root     20   0   0% S     1  12864K   2232K  fg /system/bin/rild
+  542 root     RT   0   0% S     1      0K      0K  fg oal_gpio_rx_dat
+  543 root      0 -20   0% S     1      0K      0K  fg sdio_test
+  544 root      0 -20   0% S     1      0K      0K  fg softwdt
+  545 root      0 -20   0% S     1      0K      0K  fg oam_reg_tx_queu
+  546 root      0 -20   0% S     1      0K      0K  fg oam_rx_queue
+  547 root     -2   0   0% S     1      0K      0K  fg hisi_frw/0
+  549 root      0 -20   0% S     1      0K      0K  fg wlan_pm_wq
+  550 root      0 -20   0% S     1      0K      0K  fg wkup_dev_workqu
+  551 root      0 -20   0% S     1      0K      0K  fg ps_tx_queue
+  560 root     -2   0   0% S     1      0K      0K  fg hisi_hcc
+  561 root     RT   0   0% S     1      0K      0K  fg hisi_rxdata
+  563 root      0 -20   0% S     1      0K      0K  fg cfg80211_del_vi
+  564 root      0 -20   0% S     1      0K      0K  fg wifi_exception_
+  578 audioser 20   0   0% S    11  37272K   5092K  fg /system/bin/audioserver
+  900 system   20   0   0% S     1   8024K   1488K  fg /vendor/bin/octty
+  901 system   20   0   0% S     4  14524K   1840K  fg /vendor/bin/oam_hisi
+  902 system   20   0   0% S     3  11212K   1768K  fg /vendor/bin/chr_logd
+  903 gps      20   0   0% S     5  19924K   5568K  fg /vendor/bin/gnss_engine_hisi
+  904 gps      20   0   0% S     9  23240K   3752K  fg /vendor/bin/gnss_control_hisi
+  905 system   20   0   0% S     8  27696K   4316K  fg /vendor/bin/gnss_supl20clientd_hisi
+  906 gps      20   0   0% S     1   7828K   2364K  fg /vendor/xbin/gnss_watchlssd_thirdparty
+  907 system   20   0   0% S     1   8024K   1260K  fg /vendor/bin/fm_server_hisi
+  934 gps      20   0   0% S     1   7316K   1100K  fg lss
+ 1191 system   18  -2   0% S   181 2584960K 177140K  fg system_server
+ 1370 root      0 -20   0% S     1      0K      0K  fg kbase_event
+ 1441 root     20   0   0% S     1      0K      0K  fg pkgld
+ 1442 root     20   0   0% S     1      0K      0K  fg pkgld
+ 1443 root     20   0   0% S     1      0K      0K  fg pkgld
+ 1554 system   20   0   0% S     9 2051700K  53232K  fg com.huawei.securitymgr
+ 1570 u0_a36   20   0   0% S    64 3258004K 217164K  fg com.android.systemui
+ 1679 system   20   0   0% S    22 2079664K  76944K  bg com.huawei.imonitor
+ 1778 system   20   0   0% S    38 2094600K  73556K  fg com.huawei.powergenie
+ 1785 u0_a16   20   0   0% S    11 2055220K  55232K  fg com.huawei.ihealth
+ 1798 radio    20   0   0% S    24 2106380K  74804K  fg com.android.phone
+ 1865 wifi     20   0   0% S     1  14972K   4576K  fg /vendor/bin/wpa_supplicant_hisi
+ 1914 system   20   0   0% S    69 2201196K 105928K  fg com.huawei.systemmanager:service
+ 1928 u0_a34   20   0   0% S    12 2081448K  59456K  bg com.huawei.android.totemweather
+ 2030 u0_a3    20   0   0% S    24 2085180K  69204K  bg android.process.acore
+ 2108 root      0 -20   0% S     1      0K      0K  fg kbase_event
+ 2131 root      0 -20   0% S     1      0K      0K  fg kworker/2:1H
+ 2229 root      0 -20   0% S     1      0K      0K  fg kworker/1:1H
+ 2306 u0_a11   20   0   0% S     9 2059368K  54452K  fg com.google.android.ext.services
+ 2332 root      0 -20   0% S     1      0K      0K  fg kworker/3:1H
+ 2361 system   20   0   0% S    12 2069964K  60360K  fg com.huawei.indexsearch.observer
+ 2374 system   20   0   0% S    17 2060300K  61328K  fg com.android.supl
+ 2387 system   20   0   0% S    13 2062288K  57172K  fg com.huawei.geofence
+ 2408 u0_a79   20   0   0% S    26 2074420K  71116K  bg com.amap.android.ams
+ 2467 u0_a56   20   0   0% S    52 2770504K 159200K  bg com.huawei.android.launcher
+    1 root     20   0   0% S     1  19588K   1708K  fg /init
+ 2583 root      0 -20   0% S     1      0K      0K  fg kbase_event
+ 2604 u0_a9    20   0   0% S    16 2089624K  74932K  fg android.process.media
+ 2751 u0_a94   20   0   0% S    27 1580400K  98520K  bg com.nuance.swype.emui
+ 2893 media_rw 20   0   0% S     4  28220K  14720K  fg /system/bin/sdcard
+ 4031 system   20   0   0% S    16 2059648K  65036K  fg com.huawei.android.pushagent.PushService
+ 5277 root     20   0   0% S     1      0K      0K  fg kworker/4:1
+ 5376 root     20   0   0% S     1      0K      0K  fg kworker/4:0
+ 5703 system   20   0   0% S    10 2127092K  72012K  bg com.android.settings
+ 5994 root     20   0   0% S     1      0K      0K  fg kworker/u16:1
+ 7410 root     20   0   0% S     1      0K      0K  fg kworker/u16:4
+10224 u0_a52   20   0   0% S    11 2068088K  67160K  bg com.huawei.android.pushagent
+11526 root     20   0   0% S     1      0K      0K  fg kworker/7:0
+12168 root     20   0   0% S     1      0K      0K  fg kworker/u16:6
+12466 root     20   0   0% S     1      0K      0K  fg kworker/u16:8
+13109 system   20   0   0% S    26 2125560K  80196K  bg com.huawei.systemmanager
+13206 root     20   0   0% S     1      0K      0K  fg kworker/0:1
+13497 u0_a13   20   0   0% S    12 2062564K  56256K  bg com.android.calendar
+13678 root     20   0   0% S     1      0K      0K  fg kworker/u16:7
+13707 root     20   0   0% S     1      0K      0K  fg kworker/6:0
+14087 root     20   0   0% S     1      0K      0K  fg kworker/u16:3
+14302 u0_a22   20   0   0% S    16 1798564K  70256K  bg com.android.gallery3d
+14333 u0_a81   20   0   0% S    11 1489632K  48340K  bg com.huawei.phoneservice
+14353 radio    20   0   0% S    19 2101252K  67720K  bg com.huawei.hidisk
+14412 root     RT   0   0% S     1      0K      0K  fg irq/43-mmc0
+14415 u0_a82   20   0   0% S    17 2079524K  74144K  bg com.huawei.appmarket
+14429 root     20   0   0% S     1      0K      0K  fg cabc_pwm_task
+14649 root     20   0   0% S     1      0K      0K  fg kworker/u16:5
+14668 root      0 -20   0% S     1      0K      0K  fg kworker/u17:0
+14760 u0_a51   20   0   0% S    10 1486164K  46776K  bg com.huawei.android.hwouc:hwbdservice
+14780 u0_a51   20   0   0% S    10 1485264K  42380K  bg com.huawei.android.hwouc:usersurvey
+14807 u0_a45   20   0   0% S    10 1477940K  44524K  bg com.huawei.hilink.framework
+14883 u0_a36   20   0   0% S    10 2057232K  55984K  bg com.android.keyguard
+14958 root     20   0   0% S     1      0K      0K  fg kworker/1:0
+14962 root     20   0   0% S     1      0K      0K  fg kworker/2:1
+14988 u0_a51   20   0   0% S    11 1487232K  47780K  bg com.huawei.android.hwouc
+15010 root     20   0   0% S     1      0K      0K  fg kworker/3:2
+15023 root      0 -20   0% S     1      0K      0K  fg kworker/u17:1
+15032 shell    20   0   0% S     6  17444K    652K  fg /sbin/adbd
+15033 shell    20   0   0% S     4  10764K    664K  fg /sbin/hdbd
+15082 u0_a235  20   0   0% S    28 2497956K  78524K  bg com.huawei.hisuite
+15104 root      0 -20   0% S     1      0K      0K  fg kbase_event
+15152 root      0 -20   0% S     1      0K      0K  fg kbase_event
+15198 shell    20   0   0% S     1   8144K   1580K  fg logcat
+15409 root     20   0   0% S     1      0K      0K  fg kworker/0:0
+15506 root     20   0   0% S     1      0K      0K  fg kworker/3:0
+15537 root      0 -20   0% S     1      0K      0K  fg kworker/u17:2
+15610 root      0 -20   0% S     1      0K      0K  fg kbase_event
+15743 root     20   0   0% S     1      0K      0K  fg kworker/1:2
+15780 root     20   0   0% S     1      0K      0K  fg kworker/u16:0
+15802 root     20   0   0% S     1      0K      0K  fg kworker/2:2
+16011 root     20   0   0% S     1      0K      0K  fg kworker/0:2
+16016 root     20   0   0% S     1      0K      0K  fg kworker/3:1
+16032 root     20   0   0% S     1      0K      0K  fg kworker/u16:2
+16046 u0_a20   20   0   0% S    13 2082292K  76492K  bg com.huawei.intelligent
+16232 root     20   0   0% S     1      0K      0K  fg kworker/1:1
+16397 root     20   0   0% S     1      0K      0K  fg kworker/2:0
+17689 root     20   0   0% S     1      0K      0K  fg kworker/6:2
+19377 root     20   0   0% S     1      0K      0K  fg kworker/5:1
+ 2492 system   20   0   0% S    14 2079492K  70364K  bg com.huawei.bd
+    2 root     20   0   0% S     1      0K      0K  fg kthreadd
